@@ -1,7 +1,7 @@
 # formal-languages-and-compilers
-Trabalho da Disciplina INE5421 - Linguagens Formais e Compiladores
+Trabalho da Disciplina INE5421 - Linguagens Formais e Compiladores da Universidade Federal de Santa Catarina
 
-## Primeira entrega
+## Primeira entrega - 14/02/2022
 ### Alexandre Müller Júnior - 16102858
 
 Requisitos: Python 3.X
