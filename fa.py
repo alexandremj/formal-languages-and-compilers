@@ -301,8 +301,8 @@ class FA:
         new_transition_function[(new_start_state, '&')] = ('A_' + self.start_state,
                                                         'B_' + self.start_state)
         
-        A_accept_states = {'A_' + state for state in self.accept_states}
-        B_accept_states = {'B_' + state for state in other.accept_states}
+        A_accept_states = {'A_' + ''.join(sorted(self.accept_states, reverse=True))}
+        B_accept_states = {'B_' + ''.join(sorted(self.accept_states, reverse=True))}
 
         new_accept_states = A_accept_states.union(B_accept_states)
 

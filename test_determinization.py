@@ -16,5 +16,5 @@ ver04_1_eps = FA({'p', 'q', 'r'}, {'a', 'b', 'c'},
                 ('q', 'a'): ('p'), ('q', 'b'): ('r'), ('q', 'c'): ('p', 'q'), ('q', '&'): ('-'),
                 ('r', 'a'): ('-'), ('r', 'b'): ('-'), ('r', 'c'): ('-'), ('r', '&'): ('-')},
                 'p', {'r'})
-# det = ver04_1_eps.determinization()
+# det = ver04_1_eps.determinization() # output incorreto
 # print(det)
